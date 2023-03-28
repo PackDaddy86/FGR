@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fertile Ground Ranch Discipleship Ministry</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Add your own stylesheet here for additional styles -->
+    <link rel="stylesheet" href="styles.css" />
+    
+    <!-- Chatbot script code -->
     <script defer="defer" src="https://cdn.jsdelivr.net/gh/interaxai/cdn@v0.5.4/dist/bundle.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/interaxai/cdn@v0.5.4/dist/styles.css" />
+    <script>
+        window.INTERAX_AI = {
+            widgetID: "chatbot",
+            ownerID: "641efd70921a9fdb01943eee",
+        };
+    </script>
 </head>
 <body>
     <header>
-        <h1>Fertile Ground Ranch Discipleship Ministry</h1>
+        <h1>Welcome to Fertile Ground Ranch Discipleship Ministry</h1>
     </header>
     <main>
-        <section id="chatbot">
-            <h2>Ask Our Chatbot</h2>
-            <div id="chat-window"></div>
-            <interaxai-result id="result1"></interaxai-result>
-            <interaxai-input id="input1"></interaxai-input>
-            <interaxai-submit id="submit1"></interaxai-submit>
+        <section>
+            <h2>Chat with our Ministry Bot</h2>
+            <div class="chatbot-container">
+                <div id="chatbot"></div>
+            </div>
         </section>
     </main>
-    <footer>
+</body>
+</html>
